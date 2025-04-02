@@ -38,13 +38,8 @@ if (!defined('ABSPATH'))
     
 </head>
 
-<<<<<<< HEAD
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-
-=======
-<body>
->>>>>>> 1a87fa66f56f5cd0fcfa41ad76d1c52722740959
     <!-- START STEP 2.13 ADD SEARCH FORM -->
 
     <?php get_search_form(); ?>
@@ -54,21 +49,12 @@ if (!defined('ABSPATH'))
 
     <!-- START STEP 2.17 CUSTOMIZE BODY CLASS & OPEN -->
 
-<<<<<<< HEAD
 
 
 
 <!-- END STEP 2.17 CUSTOMIZE BODY CLASS & OPEN -->
     
 
-=======
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-
-<!-- END STEP 2.17 CUSTOMIZE BODY CLASS & OPEN -->
-    
-</body>
->>>>>>> 1a87fa66f56f5cd0fcfa41ad76d1c52722740959
 
 <!-- START STEP 2.18 BRANDING & DESCRIPTION -->
 <header>
