@@ -30,6 +30,9 @@ if (!defined('ABSPATH'))
 <main id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php // NOTE IDs AND CLASSES ARE AUTOMATICALLY ADDED HERE ?>
 
+<<<<<<< HEAD
+   
+=======
     <!-- START STEP 2.22 ADD SIDEBAR -->
 
     <?php get_sidebar(); ?>
@@ -38,6 +41,7 @@ if (!defined('ABSPATH'))
 
 <!-- END STEP 2.20 ADD FLEX CONTAINER -->
 </div>
+>>>>>>> 1a87fa66f56f5cd0fcfa41ad76d1c52722740959
 
 
 <!-- START WORDPRESS LOOP -->
@@ -61,7 +65,18 @@ if (!defined('ABSPATH'))
  <!-- END STEP 2.8 ADD H1 AND WORDPRESS LOOP -->
 <!-- closing flex-container will go here -->
 
+<<<<<<< HEAD
+ <!-- START STEP 2.22 ADD SIDEBAR -->
 
+ <?php get_sidebar(); ?>
+
+<!-- END STEP 2.22 ADD SIDEBAR -->
+
+<!-- END STEP 2.20 ADD FLEX CONTAINER -->
+</div>
+=======
+
+>>>>>>> 1a87fa66f56f5cd0fcfa41ad76d1c52722740959
 
 
 <!-- START STEP 2.6 ENABLE FOOTER -->
